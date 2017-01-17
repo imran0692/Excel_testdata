@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+	<browser>chrome</browser>
+
+	<AXAHome>
+		<Login>
+			<lnkLogin locator="xpath">//*[@id="wrapper-inner"]/div[1]/div[1]/div[2]/ul/li[14]/a
+			</lnkLogin>
+			<txtUsername locator="id">loginId</txtUsername>
+			<txtPassword locator="id">loginPassword</txtPassword>
+			<btngo locator="cssSelector">div.col-xs-4.goButton > button.btn</btngo>
+		</Login>
+	</AXAHome>
+</configurations>
